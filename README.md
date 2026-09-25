@@ -1,22 +1,20 @@
-# Pràctica: Xifrat i desxifrat amb inversió de línia
+# Acces-data-RA1-PT1
+Exercici — Lectura i anàlisi d’un fitxer de text amb Java
 
-## Objectiu
-Aprendre a treballar amb fitxers de text utilitzant decoradors (BufferedReader, BufferedWriter), aplicar transformacions de text i xifrat simple (Cèsar).
+Fes un programa en Java que llegeixi el contingut d’un fitxer de text anomenat text.txt i mostri la informació següent:
 
-## Requeriments
+    El nombre total de caràcters, sense comptar els salts de línia.
+        Els espais i les tabulacions sí que compten com a caràcters.
 
-**1. Xifrat**
-* Llegir el fitxer `entrada.txt` amb BufferedReader.
-* Invertir cada línia (exemple: "Hola món" → "nóm aloH").
-* Aplicar xifrat Cèsar: desplaçar cada caràcter N posicions en Unicode.
-* Escriure el resultat a `xifrat.txt` amb BufferedWriter.
+    El nombre total de línies del fitxer.
 
-**2. Desxifrat**
-* Llegir el fitxer `xifrat.txt`.
-* Aplicar desplaçament invers de la clau.
-* Tornar a invertir cada línia per recuperar el missatge original.
-* Escriure el resultat a `desxifrat.txt`.
+    El nombre total de paraules.
+        Considerarem una paraula qualsevol seqüència de caràcters separada per un o més espais, tabulacions o salts de línia.
 
-**3. General**
-* Mostrar per consola missatges de progrés i errors.
-* *Opcional:* Permetre que l'usuari introdueixi la clau per consola.
+    El caràcter que apareix més vegades.
+        No s'han de tenir en compte els espais, les tabulacions ni els salts de línia.
+        Les majúscules i les minúscules es consideraran caràcters diferents. Per exemple, A i a són dos caràcters diferents.
+
+    El programa haurà de gestionar correctament les possibles excepcions relacionades amb la lectura del fitxer.
+
+L'objectiu és llegir el fitxer caràcter a caràcter utilitzant FileReader.# acces_data-ra1-pt1
