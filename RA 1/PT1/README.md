@@ -17,4 +17,4 @@ Fes un programa en Java que llegeixi el contingut d’un fitxer de text anomenat
 
     El programa haurà de gestionar correctament les possibles excepcions relacionades amb la lectura del fitxer.
 
-L'objectiu és llegir el fitxer caràcter a caràcter utilitzant FileReader.
+L'objectiu és llegir el fitxer caràcter a caràcter utilitzant FileReader.# acces_data-ra1-pt1
