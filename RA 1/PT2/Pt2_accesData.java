@@ -24,7 +24,7 @@ public class Pt2_accesData {
         desxifrarFitxer(fitxerXifrat, fitxerDesxifrat, clau);
         
         scanner.close();
-    }
+    } 
 
     public static void xifrarFitxer(String entrada, String sortida, int clau) {
         try (
