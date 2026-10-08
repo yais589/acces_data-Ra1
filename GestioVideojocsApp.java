@@ -163,7 +163,6 @@ public class GestioVideojocsApp {
         }
     }
 
-    // ---------- Mètodes de persistència ----------
 
     @SuppressWarnings("unchecked")
     private static ArrayList<Videojoc> carregarVideojocs() {
